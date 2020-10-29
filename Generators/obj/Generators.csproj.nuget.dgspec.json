@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kordukoff/Desktop/DIMAS/Generators/Generators.csproj": {}
+  },
+  "projects": {
+    "/Users/kordukoff/Desktop/DIMAS/Faker/Faker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kordukoff/Desktop/DIMAS/Faker/Faker.csproj",
+        "projectName": "Faker",
+        "projectPath": "/Users/kordukoff/Desktop/DIMAS/Faker/Faker.csproj",
+        "packagesPath": "/Users/kordukoff/.nuget/packages/",
+        "outputPath": "/Users/kordukoff/Desktop/DIMAS/Faker/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/kordukoff/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/kordukoff/Desktop/DIMAS/Generators/Generators.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kordukoff/Desktop/DIMAS/Generators/Generators.csproj",
+        "projectName": "Generators",
+        "projectPath": "/Users/kordukoff/Desktop/DIMAS/Generators/Generators.csproj",
+        "packagesPath": "/Users/kordukoff/.nuget/packages/",
+        "outputPath": "/Users/kordukoff/Desktop/DIMAS/Generators/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/kordukoff/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/kordukoff/Desktop/DIMAS/Faker/Faker.csproj": {
+                "projectPath": "/Users/kordukoff/Desktop/DIMAS/Faker/Faker.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
